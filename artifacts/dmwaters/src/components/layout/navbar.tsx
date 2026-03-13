@@ -121,7 +121,7 @@ export function Navbar() {
           <div className="hidden lg:flex items-center gap-4">
             <div className="flex items-center gap-2 text-primary font-semibold">
               <PhoneCall className="w-5 h-5" />
-              <span>+263 XX XXX XXXX</span>
+              <span>+263 77 451 1736</span>
             </div>
             <Link href="/contact">
               <Button variant="accent">Request Quote</Button>
@@ -188,7 +188,7 @@ export function Navbar() {
               <div className="mt-8 pt-8 border-t border-border flex flex-col gap-4">
                 <div className="flex items-center gap-3 text-primary font-bold text-xl">
                   <PhoneCall className="w-6 h-6" />
-                  <span>+263 XX XXX XXXX</span>
+                  <span>+263 77 451 1736</span>
                 </div>
                 <Link href="/contact" className="w-full">
                   <Button variant="accent" className="w-full text-lg h-14">Request Quote</Button>

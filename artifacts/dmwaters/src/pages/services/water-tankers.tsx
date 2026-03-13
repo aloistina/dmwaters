@@ -64,7 +64,7 @@ export default function WaterTankers() {
             Water shortages can happen unexpectedly. Our dispatch team is on standby to route a tanker to your location ASAP.
           </p>
           <Button size="lg" variant="accent" className="h-16 px-10 text-lg border-2 border-transparent">
-            <PhoneCall className="mr-2" /> Call +263 XX XXX XXXX
+            <PhoneCall className="mr-2" /> Call +263 77 451 1736
           </Button>
         </div>
       </div>

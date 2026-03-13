@@ -59,15 +59,18 @@ export function Footer() {
             <ul className="space-y-6">
               <li className="flex items-start gap-4 text-gray-300">
                 <MapPin className="w-6 h-6 text-accent shrink-0 mt-1" />
-                <span>Harare, Zimbabwe<br/>(Full address available upon inquiry)</span>
+                <span>17 Huxham Rd,<br/>Greendale, Harare<br/>Zimbabwe</span>
               </li>
-              <li className="flex items-center gap-4 text-gray-300">
-                <Phone className="w-6 h-6 text-accent shrink-0" />
-                <span>+263 XX XXX XXXX</span>
+              <li className="flex items-start gap-4 text-gray-300">
+                <Phone className="w-6 h-6 text-accent shrink-0 mt-1" />
+                <div className="flex flex-col gap-1">
+                  <a href="tel:+263774511736" className="hover:text-white transition-colors">+263 77 451 1736</a>
+                  <a href="tel:+263774511736" className="hover:text-white transition-colors">+263 774 511 736</a>
+                </div>
               </li>
               <li className="flex items-center gap-4 text-gray-300">
                 <Mail className="w-6 h-6 text-accent shrink-0" />
-                <a href="mailto:info@dmwaters.co.zw" className="hover:text-white transition-colors">info@dmwaters.co.zw</a>
+                <a href="mailto:sales@dmwaters.co.zw" className="hover:text-white transition-colors">sales@dmwaters.co.zw</a>
               </li>
             </ul>
           </div>

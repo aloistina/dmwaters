@@ -79,7 +79,7 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="text-sm font-bold text-gray-500 uppercase tracking-wider">24/7 Emergency Delivery</p>
-                    <p className="text-xl font-bold text-primary">+263 XX XXX XXXX</p>
+                    <p className="text-xl font-bold text-primary">+263 77 451 1736</p>
                   </div>
                 </div>
               </div>
@@ -237,7 +237,7 @@ export default function Home() {
                 Request a Quote
               </Button>
             </Link>
-            <Button size="lg" variant="outline" className="h-16 px-10 text-lg border-2" onClick={() => window.location.href="tel:+263XXXXXXX"}>
+            <Button size="lg" variant="outline" className="h-16 px-10 text-lg border-2" onClick={() => window.location.href="tel:+263774511736"}>
               <Phone className="w-5 h-5 ml-0 mr-2" /> Call Us Now
             </Button>
           </div>

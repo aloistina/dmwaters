@@ -60,7 +60,8 @@ export default function Contact() {
               <div>
                 <h4 className="text-lg font-bold">Call Us</h4>
                 <p className="text-muted-foreground mb-1">For emergency deliveries (24/7)</p>
-                <a href="tel:+263XXXXXXX" className="text-xl font-bold text-primary hover:underline">+263 XX XXX XXXX</a>
+                <a href="tel:+263774511736" className="block text-xl font-bold text-primary hover:underline">+263 77 451 1736</a>
+                <a href="tel:+263774511736" className="block text-lg font-semibold text-primary hover:underline">+263 774 511 736</a>
               </div>
             </div>
 
@@ -71,7 +72,7 @@ export default function Contact() {
               <div>
                 <h4 className="text-lg font-bold">Email Us</h4>
                 <p className="text-muted-foreground mb-1">For general inquiries and corporate accounts</p>
-                <a href="mailto:info@dmwaters.co.zw" className="text-lg font-bold text-primary hover:underline">info@dmwaters.co.zw</a>
+                <a href="mailto:sales@dmwaters.co.zw" className="text-lg font-bold text-primary hover:underline">sales@dmwaters.co.zw</a>
               </div>
             </div>
 
@@ -82,9 +83,8 @@ export default function Contact() {
               <div>
                 <h4 className="text-lg font-bold">Location</h4>
                 <p className="text-muted-foreground text-lg">
+                  17 Huxham Rd, Greendale<br />
                   Harare, Zimbabwe
-                  <br />
-                  (Operating nationwide for large projects)
                 </p>
               </div>
             </div>
