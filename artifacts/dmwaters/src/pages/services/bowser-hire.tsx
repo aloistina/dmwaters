@@ -23,9 +23,8 @@ export default function BowserHire() {
               </Link>
             </div>
             <div className="rounded-3xl overflow-hidden shadow-xl">
-              {/* unsplash construction site tank */}
               <img 
-                src="https://pixabay.com/get/gaee26c6ad478ef5819dd8d31f0fa097c3e248e22353d19aeb9076e709ffdd52a2c6d83946a84366831fe9f60559fdb6799a8af49d2fb203cdc8bef9e84544104_1280.jpg" 
+                src={`${import.meta.env.BASE_URL}images/bowser-hire-hero.png`} 
                 alt="Static Water Tanks Construction" 
                 className="w-full h-full object-cover"
               />

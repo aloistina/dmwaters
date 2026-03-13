@@ -23,9 +23,8 @@ export default function WaterTankers() {
               </Link>
             </div>
             <div className="rounded-3xl overflow-hidden shadow-xl">
-              {/* unsplash big truck */}
               <img 
-                src="https://pixabay.com/get/g4095075604f180b4228d5be2d2e329348a38327867a968dd328f14bff47231416c2a046c285cd0c66ebf6f21911e19d9c942a14d6d51d769bbee7e1cf708e4f8_1280.jpg" 
+                src={`${import.meta.env.BASE_URL}images/tanker-african.png`} 
                 alt="Water Tanker Truck" 
                 className="w-full h-full object-cover"
               />

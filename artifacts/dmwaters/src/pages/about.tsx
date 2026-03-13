@@ -19,9 +19,8 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center mb-24">
           <div className="rounded-3xl overflow-hidden shadow-2xl relative h-96">
-            {/* unsplash clear water glass */}
             <img 
-              src="https://pixabay.com/get/gc20f6ec5d6ae8ca79eaf864e149c3609c00a97b29bba9885be6acc0b2eaec151d806f13254d305f1adf01f15367c509549c760fa076ea77039c49fa1be9e0029_1280.jpg" 
+              src={`${import.meta.env.BASE_URL}images/about-water.png`} 
               alt="Clear Drinking Water" 
               className="w-full h-full object-cover"
             />

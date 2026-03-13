@@ -65,11 +65,10 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="hidden lg:block relative"
             >
-              {/* Unsplash image of clean water splash or corporate truck */}
               {/* home page hero image */}
               <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-black/50 aspect-4/3 border-4 border-white/10">
                 <img 
-                  src="https://pixabay.com/get/g213df271893018d8453983b1e1736b74384cac14be083e03648bd0f0c027e1e19e0fbe86fbb7ec4746e1c1b4290957f7694da163a9d1415d528453741243be6e_1280.jpg" 
+                  src={`${import.meta.env.BASE_URL}images/hero-african.png`} 
                   alt="Clean flowing water" 
                   className="w-full h-full object-cover"
                 />
@@ -144,10 +143,9 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Service 1 */}
             <div className="group rounded-3xl overflow-hidden bg-white shadow-lg border border-border hover:shadow-2xl transition-all duration-300">
-              {/* Unsplash tank truck */}
               <div className="h-64 overflow-hidden relative">
                 <img 
-                  src="https://pixabay.com/get/g84672d52d09502405ca0aa9ae497e64982a8c4aaeb53699bcdcd642285b309d1b36a8dcfe0cd3baf80dadd4fd6ef6d844b94fefc9b799ff0ed634f5352af3305_1280.jpg" 
+                  src={`${import.meta.env.BASE_URL}images/tanker-card.png`} 
                   alt="Water Tanker" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -168,10 +166,9 @@ export default function Home() {
 
             {/* Service 2 */}
             <div className="group rounded-3xl overflow-hidden bg-white shadow-lg border border-border hover:shadow-2xl transition-all duration-300">
-              {/* Unsplash industrial tank */}
               <div className="h-64 overflow-hidden relative">
                 <img 
-                  src="https://pixabay.com/get/g11ec4db5ad3adecd98d0a67257048cba0558981013896dfe10814e267344a0185d2d724450443ef0ee69625bf5eb08ea32087c2e59dfa9d36879b67c5fe130f0_1280.jpg" 
+                  src={`${import.meta.env.BASE_URL}images/bowser-african.png`} 
                   alt="Static Water Tanks" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />

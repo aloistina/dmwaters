@@ -45,9 +45,8 @@ export default function Services() {
             </Link>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-2xl h-80 lg:h-full">
-            {/* unsplash water tanker highway */}
             <img 
-              src="https://pixabay.com/get/gd9cee1d5aa7392d0141d6bef4dc785f9d512c76096f64972f8ecece7e71dca8a16f1d0b98543e7ed77ea7dadf119f76b8af700284392819f086d82aa874b4513_1280.png" 
+              src={`${import.meta.env.BASE_URL}images/services-tanker.png`} 
               alt="Water Tanker Fleet" 
               className="w-full h-full object-cover"
             />
@@ -57,9 +56,8 @@ export default function Services() {
         {/* SERVICE 2 */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center flex-col-reverse lg:flex-row-reverse">
           <div className="rounded-2xl overflow-hidden shadow-2xl h-80 lg:h-full">
-            {/* unsplash industrial water tanks */}
             <img 
-              src="https://pixabay.com/get/ga758027a71d0812e6628253e9c8dc85415b034194e8348d59fd9ea035b3ceb1f82b7f0f0d968670459a8dde33dc52cf598ec7554764df9dd33d96c6eeff292bb_1280.jpg" 
+              src={`${import.meta.env.BASE_URL}images/services-tanks.png`} 
               alt="Water Tank Storage" 
               className="w-full h-full object-cover"
             />

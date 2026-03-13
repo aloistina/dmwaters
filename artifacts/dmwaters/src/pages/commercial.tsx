@@ -17,10 +17,9 @@ export default function Commercial() {
   return (
     <Layout>
       <div className="relative pt-24 pb-20 overflow-hidden">
-        {/* unsplash corporate building */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=600&fit=crop" 
+            src={`${import.meta.env.BASE_URL}images/commercial-harare.png`} 
             alt="Corporate Buildings" 
             className="w-full h-full object-cover"
           />
@@ -78,9 +77,8 @@ export default function Commercial() {
             </Link>
           </div>
           <div className="lg:w-1/2 w-full h-80 rounded-2xl overflow-hidden shadow-xl">
-             {/* unsplash industrial pipes */}
              <img 
-              src="https://pixabay.com/get/ge6b40dd2e94977dd136fad0fb062caca4fd5032b2e0b8b4379d077ecd337f3381c21d83826cbc90a6ed3d646e447c2db0ca8e98006576f932b0f03f8c69da796_1280.jpg" 
+              src={`${import.meta.env.BASE_URL}images/industrial-africa.png`} 
               alt="Industrial Water Setup" 
               className="w-full h-full object-cover"
             />
