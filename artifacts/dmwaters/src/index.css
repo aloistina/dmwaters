@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+
+  /* DM Waters Brand Colors */
+  /* Primary: Navy Blue #1a237e -> 235 66% 30% */
+  /* Accent: Red #d32f2f -> 4 69% 51% */
+  /* Secondary: Water Blue #0288d1 -> 201 98% 41% */
+  
+  --color-background: hsl(0 0% 100%);
+  --color-foreground: hsl(235 20% 15%);
+  
+  --color-primary: hsl(235 66% 30%);
+  --color-primary-foreground: hsl(0 0% 100%);
+  
+  --color-secondary: hsl(201 98% 41%);
+  --color-secondary-foreground: hsl(0 0% 100%);
+  
+  --color-accent: hsl(4 69% 51%);
+  --color-accent-foreground: hsl(0 0% 100%);
+  
+  --color-muted: hsl(210 40% 96%);
+  --color-muted-foreground: hsl(215 16% 47%);
+  
+  --color-border: hsl(214 32% 91%);
+  --color-input: hsl(214 32% 91%);
+  --color-ring: hsl(235 66% 30%);
+  
+  --color-card: hsl(0 0% 100%);
+  --color-card-foreground: hsl(235 20% 15%);
+  
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+}
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 235 20% 15%;
+  --primary: 235 66% 30%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 201 98% 41%;
+  --secondary-foreground: 0 0% 100%;
+  --accent: 4 69% 51%;
+  --accent-foreground: 0 0% 100%;
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 16% 47%;
+  --border: 214 32% 91%;
+  --input: 214 32% 91%;
+  --ring: 235 66% 30%;
+  --card: 0 0% 100%;
+  --card-foreground: 235 20% 15%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-sans antialiased selection:bg-primary/20 selection:text-primary;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply font-bold tracking-tight text-primary;
+  }
+}
+
+/* Custom utility for the gradient text */
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl shadow-black/5;
+}

@@ -1,0 +1,19 @@
+packages:
+  "framer-motion": "For smooth page transitions and scroll-triggered animations"
+  "react-hook-form": "For robust contact form handling"
+  "@hookform/resolvers": "For Zod integration with forms"
+  "zod": "Validation schema for contact form"
+  "clsx": "For class name merging"
+  "tailwind-merge": "For merging tailwind classes safely"
+
+images:
+  - path: "artifacts/dmwaters/public/images/hero-wave.png"
+    description: "Abstract 3d rendering of a clean blue water wave, dark navy background, elegant and corporate professional aesthetic"
+    aspect_ratio: "16:9"
+  - path: "artifacts/dmwaters/public/images/water-texture.png"
+    description: "Subtle clean water drops on glass, light blue gradient background, soft abstract texture"
+    aspect_ratio: "16:9"
+
+notes:
+  - The contact form is static and simulates a submission via console.log as no backend API was specified.
+  - SEO uses a custom hook to update document.title and meta description dynamically.
