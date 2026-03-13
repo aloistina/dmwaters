@@ -38,6 +38,7 @@ export function Footer() {
               <li><Link href="/services" className="text-gray-300 hover:text-white transition-colors flex items-center gap-2"><Droplet className="w-3 h-3 text-secondary"/> Services</Link></li>
               <li><Link href="/residential" className="text-gray-300 hover:text-white transition-colors flex items-center gap-2"><Droplet className="w-3 h-3 text-secondary"/> Residential Delivery</Link></li>
               <li><Link href="/commercial" className="text-gray-300 hover:text-white transition-colors flex items-center gap-2"><Droplet className="w-3 h-3 text-secondary"/> Commercial Solutions</Link></li>
+              <li><Link href="/blog" className="text-gray-300 hover:text-white transition-colors flex items-center gap-2"><Droplet className="w-3 h-3 text-secondary"/> Blog & Guides</Link></li>
             </ul>
           </div>
 

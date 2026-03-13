@@ -19,6 +19,7 @@ const NAV_LINKS = [
   },
   { label: "Residential", href: "/residential" },
   { label: "Commercial", href: "/commercial" },
+  { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
 ];
 

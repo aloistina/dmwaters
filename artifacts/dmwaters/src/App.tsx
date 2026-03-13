@@ -13,6 +13,8 @@ import Residential from "@/pages/residential";
 import Commercial from "@/pages/commercial";
 import About from "@/pages/about";
 import Contact from "@/pages/contact";
+import Blog from "@/pages/blog/index";
+import BlogPost from "@/pages/blog/post";
 
 const queryClient = new QueryClient();
 
@@ -27,6 +29,8 @@ function Router() {
       <Route path="/commercial" component={Commercial} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
+      <Route path="/blog" component={Blog} />
+      <Route path="/blog/:slug" component={BlogPost} />
       <Route component={NotFound} />
     </Switch>
   );
